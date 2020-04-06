@@ -1,9 +1,13 @@
 # fmri_mvpa
 
 This project was done by
-Heejung Jung
-Xiaochun Han
-Deepanshi Shokeen
+**Heejung Jung**
+
+**Xiaochun Han**
+
+**Deepanshi Shokeen**
+
+
 
 Project: MVPC – classify behaving animal data in searchlights using SVM
 P1. 1 out of 20 conditions
