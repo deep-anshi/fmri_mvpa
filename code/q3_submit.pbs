@@ -1,0 +1,87 @@
+Universe       = vanilla
+Getenv         = True
+Executable     = /usr/bin/python
+RequestMemory  = 20000
+RequestCpus    = 4
+Initialdir     = /dartfs-hpc/scratch/psyc164/groupXHD/code/mvpc
+Output         = /dartfs-hpc/scratch/psyc164/groupXHD/code/mvpc/logs/sl_q3.out.$(Process)
+Error          = /dartfs-hpc/scratch/psyc164/groupXHD/code/mvpc/logs/sl_q3.err.$(Process)
+Log            = /dartfs-hpc/scratch/psyc164/groupXHD/code/mvpc/logs/sl_q3.log.$(Process)
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000001 lh "
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000001 rh"
+Queue
+
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000012 lh"
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000012 rh  "
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000017 lh  "
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000017 rh  "
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000024 lh  "
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000024 rh  "
+Queue
+
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000027 lh "
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000027 rh "
+Queue
+
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000031 lh "
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000031 rh "
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000032 lh "
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000032 rh "
+Queue
+
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000033 lh "
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000033 rh "
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000034 lh "
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000034 rh "
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000036 lh  "
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000036 rh  "
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000037 lh "
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000037 rh "
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000041 lh "
+Queue
+
+Arguments      = "searchlight_ques-03_classify-beh.py sub-rid000041 rh "
+Queue
