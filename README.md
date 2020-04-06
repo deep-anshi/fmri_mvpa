@@ -2,11 +2,11 @@
 
 This project was done by
 
-**Heejung Jung**
+**Heejung Jung  (Graduate Student)**
 
-**Xiaochun Han**
+**Xiaochun Han  (Post-Doc)**
 
-**Deepanshi Shokeen**
+**Deepanshi Shokeen  (Graduate Student)**
 
 
 
