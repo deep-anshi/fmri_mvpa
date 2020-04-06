@@ -1,12 +1,13 @@
 # fmri_mvpa
 
-This project was done by
+This project was done by :
 
 **Heejung Jung  (Graduate Student)**
 
 **Xiaochun Han  (Post-Doc)**
 
 **Deepanshi Shokeen  (Graduate Student)**
+
 
 
 
@@ -17,10 +18,9 @@ This project was done by
 
 
 **Parameters:**
-
 - The 3 analyses (P1, P2, P3) were conducted separately for the attention and behavioral task.
-
 - search light radii: 10
+
 
 **Analysis involved**
 
@@ -31,15 +31,11 @@ using a linear SVM classifier within a surface-based searchlight, conducted per 
 
 3. group average searchlight one-sample t-test & two-sample t-test
 
-
 1) one-sample t-test
-
 - Group average searchlight maps were compared against the chance performance
 - chance performance was 0.05 for P1, 0.2 for P2, 0.25 for P3
 
-
 2) two-sample t-test
-
 - For example, for the behavior classification for beh attention > tax attention task
 - We hypothesized that the behavioral classification performance would be higher for the behavior-attention task, as opposed to the taxonomy-attention task.
 
