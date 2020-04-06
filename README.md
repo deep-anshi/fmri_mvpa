@@ -17,6 +17,7 @@ This project was done by
 
 
 **Parameters:**
+
 The 3 analyses (P1, P2, P3) were conducted separately for the attention and behavioral task.
 
 search light radii: 10
@@ -32,15 +33,21 @@ group average searchlight one-sample t-test & two-sample t-test
 
 1) one-sample t-test
 
-Group average searchlight maps were compared against the chance performance
-chance performance was 0.05 for P1, 0.2 for P2, 0.25 for P3
+- Group average searchlight maps were compared against the chance performance
+- chance performance was 0.05 for P1, 0.2 for P2, 0.25 for P3
+
+
 2) two-sample t-test
 
-For example, for the behavior classification for beh attention > tax attention task
-We hypothesized that the behavioral classification performance would be higher for the behavior-attention task, as opposed to the taxonomy-attention task.
-*Note that we used a one-sided uncorrected p-value of 0.05.
+- For example, for the behavior classification for beh attention > tax attention task
+- We hypothesized that the behavioral classification performance would be higher for the behavior-attention task, as opposed to the taxonomy-attention task.
+
+**Note that we used a one-sided uncorrected p-value of 0.05.*
 
 visualization of group average searchlight one-sample t-test & two-sample t-test
 
 Explanation about the 1 - cross validation
 We realized in that in our code, we simply ran cv = mv.CrossValidation(clf, mv.NFoldPartitioner(attr=chunks)).
+After realizing that the default was mv.mean_mismatch_error
+we subtracted the searchlight outputs from 1,
+in order to account for the fact that we calculated the average mismatch error.
