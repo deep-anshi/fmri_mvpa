@@ -1,6 +1,7 @@
 # fmri_mvpa
 
 This project was done by
+
 **Heejung Jung**
 
 **Xiaochun Han**
